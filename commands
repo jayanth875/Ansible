@@ -1,0 +1,7 @@
+Edit (or create) /etc/ansible/hosts and put one or more remote systems in it. 
+Your public SSH key should be located in authorized_keys on those systems
+
+ansible all -m ping -u {user}
+
+
+
